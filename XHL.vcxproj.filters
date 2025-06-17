@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ImGui">
+      <UniqueIdentifier>{c8db3b36-13bc-48ce-bf91-32bbbe84a669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImGui\Backend">
+      <UniqueIdentifier>{a75dffa7-0df7-42cd-b85a-0caac2e449f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imgui">
+      <UniqueIdentifier>{154fc910-3be1-4f64-b0cd-780fd55a189f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imgui\Backend">
+      <UniqueIdentifier>{e79b2227-0565-49fd-a27d-2da9db408ea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CustomImGui">
+      <UniqueIdentifier>{10676445-24b6-4a3c-abc8-39ef1ec09d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CustomImGui">
+      <UniqueIdentifier>{06f16e2b-105b-47e0-9279-51dad5048ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CustomImGui\stb">
+      <UniqueIdentifier>{9b42703c-810f-437a-ad7c-d31715ea0626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CustomImGui\nanosvg">
+      <UniqueIdentifier>{ccd614f6-fb35-47c4-a658-ad3258f2def3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CustomImGui\nanosvg">
+      <UniqueIdentifier>{cfc076af-40f7-4728-b4d8-ec4bc93ea439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CustomImGui\stb">
+      <UniqueIdentifier>{f6f6191e-62d8-4123-a9ba-8570af8ce887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\assets">
+      <UniqueIdentifier>{3ae6bbdb-adad-493a-b5b5-ed65f00a1a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\assets\icons">
+      <UniqueIdentifier>{5ee15f6f-01c0-49ae-a233-daf5492dfcbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\visuals">
+      <UniqueIdentifier>{39c9f604-f93a-4424-88b5-b3fb43439fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Visuals">
+      <UniqueIdentifier>{c9957527-1e5c-4ce0-a200-e5faeecd9178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{7ec3e1e3-f796-4698-8260-9bacb81f8a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{c724033c-a28b-47c8-8f6e-925145178fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config">
+      <UniqueIdentifier>{764223d9-1922-4ee4-96b7-73b21c2342d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{266e7ec1-d9e4-4e79-b7d1-8c70a80fdd61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{0e4407ba-b115-4c6c-ada1-3beb3fd4a769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{2e4928df-d7ba-4bd3-83c6-dd7bed902473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bot">
+      <UniqueIdentifier>{fc025a5d-69f3-4333-a06a-bab88acc3b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bot">
+      <UniqueIdentifier>{6d4b98b1-1709-4338-a669-bf24002e201a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EncStr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VMT_Hook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_internal.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\backends\imgui_impl_win32.h">
+      <Filter>Header Files\imgui\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\backends\imgui_impl_dx11.h">
+      <Filter>Header Files\imgui\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imconfig.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_rectpack.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_textedit.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_truetype.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomImGui\ImGuiCustomWidgets.h">
+      <Filter>Header Files\CustomImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomImGui\ImGuiNotifications.h">
+      <Filter>Header Files\CustomImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomImGui\MenuElements.h">
+      <Filter>Header Files\CustomImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomImGui\stb\stb_image.h">
+      <Filter>Header Files\CustomImGui\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomImGui\stb\stb_image_resize2.h">
+      <Filter>Header Files\CustomImGui\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomImGui\nanosvg\nanosvg.h">
+      <Filter>Header Files\CustomImGui\nanosvg</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomImGui\nanosvg\nanosvgrast.h">
+      <Filter>Header Files\CustomImGui\nanosvg</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildInfo.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Utils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Vector.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Radar.h">
+      <Filter>Header Files\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\ConfigManager.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMethods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ScriptFunctions.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WInventory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemCacheEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Header Files\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Singleton.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ColorVar.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="visuals\EntityList.h">
+      <Filter>Header Files\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="CGWorldFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SpellBook.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestMaster.h">
+      <Filter>Header Files\Bot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_demo.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_draw.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_tables.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>Source Files\ImGui\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>Source Files\ImGui\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomImGui\ImGuiCustomWidgets.cpp">
+      <Filter>Source Files\CustomImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomImGui\ImGuiNotifications.cpp">
+      <Filter>Source Files\CustomImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomImGui\MenuElements.cpp">
+      <Filter>Source Files\CustomImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomImGui\nanosvg\nanosvg.cpp">
+      <Filter>Source Files\CustomImGui\nanosvg</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomImGui\nanosvg\nanosvgrast.cpp">
+      <Filter>Source Files\CustomImGui\nanosvg</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomImGui\stb\stb_image.cpp">
+      <Filter>Source Files\CustomImGui\stb</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\icons\crosshair.c">
+      <Filter>Header Files\assets\icons</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\icons\gear.c">
+      <Filter>Header Files\assets\icons</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\icons\globe.c">
+      <Filter>Header Files\assets\icons</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\icons\home.c">
+      <Filter>Header Files\assets\icons</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\icons\info.c">
+      <Filter>Header Files\assets\icons</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\icons\logo.c">
+      <Filter>Header Files\assets\icons</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\icons\menu.c">
+      <Filter>Header Files\assets\icons</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\icons\question-sign.c">
+      <Filter>Header Files\assets\icons</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\icons\user.c">
+      <Filter>Header Files\assets\icons</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Utils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Radar.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\ConfigManager.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMethods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\ScriptFunctions.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="WInventory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemCacheEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="visuals\EntityList.cpp">
+      <Filter>Source Files\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="CGWorldFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SpellBook.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestMaster.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="SpoofCall.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
